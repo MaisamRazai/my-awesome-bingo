@@ -1,4 +1,4 @@
-﻿# Copilot Instructions  Soc Ops
+﻿# Copilot Instructions - Soc Ops
 
 AI-guided development for the Social Bingo game. These instructions help Copilot understand the codebase, architecture, and design guidelines.
 
@@ -14,7 +14,7 @@ pm run build
 
 ## Project Overview
 
-**Soc Ops** is a social icebreaker bingo game for in-person mixers. Players find people matching question prompts and mark their 55 bingo card to get 5 in a row (horizontal, vertical, or diagonal).
+**Soc Ops** is a social icebreaker bingo game for in-person mixers. Players find people matching question prompts and mark their 5×5 bingo card to get 5 in a row (horizontal, vertical, or diagonal).
 
 **Tech Stack:**
 - React 19 with TypeScript
@@ -59,7 +59,7 @@ GameState: 'start' | 'playing' | 'bingo'
 ### Tailwind CSS 4
 - Use latest utilities from Tailwind v4
 - Leverage CSS variables for consistent theming
-- Grid-based layout (55 squares)
+- Grid-based layout (5×5 squares)
 - Responsive design for mobile and desktop
 
 ### Frontend Style
@@ -71,10 +71,10 @@ GameState: 'start' | 'playing' | 'bingo'
 ## Common Tasks
 
 ### Adding Questions
-Edit src/data/questions.ts  Add to questions array (keep it social and discovery-oriented).
+Edit src/data/questions.ts - Add to questions array (keep it social and discovery-oriented).
 
 ### Modifying Game Rules
-Update logic in src/utils/bingoLogic.ts  Add corresponding tests in ingoLogic.test.ts.
+Update logic in src/utils/bingoLogic.ts. Add corresponding tests in bingoLogic.test.ts.
 
 ### Styling Changes
 Use Tailwind classes in component files. Follow mobile-first responsive design.
@@ -95,7 +95,7 @@ pm run dev)
 
 ## Deployment
 
-Push to main branch  GitHub Actions auto-deploys to GitHub Pages.
+Push to main branch → GitHub Actions auto-deploys to GitHub Pages.
 
 Build output goes to dist/ directory.
 
